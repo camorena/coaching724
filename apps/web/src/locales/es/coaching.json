@@ -1,0 +1,67 @@
+{
+  "dashboard": {
+    "welcome": "¡Bienvenido de nuevo, {{name}}!",
+    "upcomingSessions": "Próximas Sesiones",
+    "recentActivity": "Actividad Reciente",
+    "goals": "Objetivos y Progreso",
+    "resources": "Recursos",
+    "messages": "Mensajes"
+  },
+  "coaches": {
+    "title": "Nuestros Coaches",
+    "findCoach": "Encuentra un Coach",
+    "expertise": "Áreas de Especialización",
+    "experience": "Años de Experiencia",
+    "rating": "Calificación",
+    "availability": "Disponibilidad",
+    "price": "Precio",
+    "viewProfile": "Ver Perfil",
+    "bookSession": "Reservar Sesión"
+  },
+  "sessions": {
+    "title": "Sesiones de Coaching",
+    "upcoming": "Próximas",
+    "past": "Pasadas",
+    "duration": "{{duration}} minutos",
+    "with": "con {{name}}",
+    "reschedule": "Reprogramar",
+    "cancel": "Cancelar",
+    "join": "Unirse a la Sesión",
+    "details": "Detalles de la Sesión",
+    "notes": "Notas de la Sesión",
+    "feedback": "Proporcionar Comentarios"
+  },
+  "booking": {
+    "title": "Reservar una Sesión",
+    "selectCoach": "Seleccionar un Coach",
+    "selectService": "Seleccionar un Servicio",
+    "selectDate": "Seleccionar una Fecha",
+    "selectTime": "Seleccionar una Hora",
+    "additionalInfo": "Información Adicional",
+    "paymentDetails": "Detalles de Pago",
+    "confirmBooking": "Confirmar Reserva",
+    "bookingSuccess": "¡Reserva Exitosa!",
+    "sessionInfo": "Información de la Sesión"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "career": "Coaching de Carrera",
+    "leadership": "Desarrollo de Liderazgo",
+    "business": "Coaching de Negocios",
+    "life": "Coaching de Vida",
+    "team": "Coaching de Equipo",
+    "executive": "Coaching Ejecutivo",
+    "groupSessions": "Sesiones Grupales",
+    "workshops": "Talleres y Capacitación"
+  },
+  "profile": {
+    "title": "Tu Perfil",
+    "personalInfo": "Información Personal",
+    "preferences": "Preferencias",
+    "goals": "Objetivos",
+    "paymentMethods": "Métodos de Pago",
+    "subscriptions": "Suscripciones",
+    "sessionHistory": "Historial de Sesiones",
+    "updateProfile": "Actualizar Perfil"
+  }
+}

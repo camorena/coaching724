@@ -1,0 +1,69 @@
+{
+  "app": {
+    "name": "Coaching724",
+    "tagline": "Your coaching platform for success"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "coaches": "Coaches",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "login": "Log in",
+    "signup": "Sign up",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Log out"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "view": "View",
+    "book": "Book",
+    "apply": "Apply",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "confirm": "Confirm"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!",
+    "more": "Load more",
+    "less": "Show less",
+    "selectLanguage": "Select language"
+  },
+  "dates": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "days": "Days",
+    "weeks": "Weeks",
+    "months": "Months",
+    "years": "Years"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "minLength": "Must be at least {{count}} characters",
+    "maxLength": "Cannot exceed {{count}} characters",
+    "passwordMatch": "Passwords do not match",
+    "serverError": "Server error, please try again",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized"
+  }
+}

@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  # Web application
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: base
+    command: sh -c "cd apps/web && pnpm dev --host"
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    environment:
+      - NODE_ENV=development
+      - VITE_SUPABASE_URL=http://supabase:54321
+      - VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTl9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0
+    depends_on:
+      - supabase
+
+  # Supabase (local development)
+  supabase:
+    image: supabase/supabase-local:latest
+    ports:
+      - "54321:54321"
+      - "54322:54322"
+    volumes:
+      - supabase-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - JWT_SECRET=super-secret-jwt-token-with-at-least-32-characters
+      - ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6ImFub24iLCJleHAiOjE5ODM4MTI5OTl9.CRXP1A7WOeoJeXxjNni43kdQwgnWNReilDMblYTn_I0
+      - SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZS1kZW1vIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImV4cCI6MTk4MzgxMjk5OX0.EGIM96RAZx35lJzdJsyH-qQwv8Hdp7fsn3W0YpN81IU
+
+  # Pinecone mock (for development)
+  pinecone-mock:
+    image: node:18-alpine
+    command: sh -c "npm install -g json-server && json-server --watch /data/db.json --port 3000 --host 0.0.0.0"
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./scripts/mock-data:/data
+    
+volumes:
+  node_modules:
+  supabase-data:

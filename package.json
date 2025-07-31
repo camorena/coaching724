@@ -1,0 +1,32 @@
+{
+  "name": "coaching724",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @coaching724/web dev",
+    "build": "pnpm --filter @coaching724/web build",
+    "preview": "pnpm --filter @coaching724/web preview",
+    "lint": "pnpm --filter @coaching724/web lint",
+    "test": "pnpm --filter @coaching724/web test",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{json,md,yml}": [
+      "prettier --write"
+    ]
+  }
+}

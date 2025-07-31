@@ -1,0 +1,69 @@
+{
+  "app": {
+    "name": "Coaching724",
+    "tagline": "Tu plataforma de coaching para el éxito"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "coaches": "Coaches",
+    "pricing": "Precios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "login": "Iniciar sesión",
+    "signup": "Registrarse",
+    "dashboard": "Panel",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "logout": "Cerrar sesión"
+  },
+  "actions": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "view": "Ver",
+    "book": "Reservar",
+    "apply": "Aplicar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "submit": "Enviar",
+    "confirm": "Confirmar"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contáctenos"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "success": "¡Éxito!",
+    "more": "Cargar más",
+    "less": "Mostrar menos",
+    "selectLanguage": "Seleccionar idioma"
+  },
+  "dates": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "tomorrow": "Mañana",
+    "days": "Días",
+    "weeks": "Semanas",
+    "months": "Meses",
+    "years": "Años"
+  },
+  "errors": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Dirección de correo inválida",
+    "minLength": "Debe tener al menos {{count}} caracteres",
+    "maxLength": "No puede exceder {{count}} caracteres",
+    "passwordMatch": "Las contraseñas no coinciden",
+    "serverError": "Error del servidor, intente nuevamente",
+    "notFound": "No encontrado",
+    "unauthorized": "No autorizado"
+  }
+}

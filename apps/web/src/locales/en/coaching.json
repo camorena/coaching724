@@ -1,0 +1,67 @@
+{
+  "dashboard": {
+    "welcome": "Welcome back, {{name}}!",
+    "upcomingSessions": "Upcoming Sessions",
+    "recentActivity": "Recent Activity",
+    "goals": "Goals & Progress",
+    "resources": "Resources",
+    "messages": "Messages"
+  },
+  "coaches": {
+    "title": "Our Coaches",
+    "findCoach": "Find a Coach",
+    "expertise": "Areas of Expertise",
+    "experience": "Years of Experience",
+    "rating": "Rating",
+    "availability": "Availability",
+    "price": "Price",
+    "viewProfile": "View Profile",
+    "bookSession": "Book a Session"
+  },
+  "sessions": {
+    "title": "Coaching Sessions",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "duration": "{{duration}} minutes",
+    "with": "with {{name}}",
+    "reschedule": "Reschedule",
+    "cancel": "Cancel",
+    "join": "Join Session",
+    "details": "Session Details",
+    "notes": "Session Notes",
+    "feedback": "Provide Feedback"
+  },
+  "booking": {
+    "title": "Book a Session",
+    "selectCoach": "Select a Coach",
+    "selectService": "Select a Service",
+    "selectDate": "Select a Date",
+    "selectTime": "Select a Time",
+    "additionalInfo": "Additional Information",
+    "paymentDetails": "Payment Details",
+    "confirmBooking": "Confirm Booking",
+    "bookingSuccess": "Booking Successful!",
+    "sessionInfo": "Session Information"
+  },
+  "services": {
+    "title": "Our Services",
+    "career": "Career Coaching",
+    "leadership": "Leadership Development",
+    "business": "Business Coaching",
+    "life": "Life Coaching",
+    "team": "Team Coaching",
+    "executive": "Executive Coaching",
+    "groupSessions": "Group Sessions",
+    "workshops": "Workshops & Training"
+  },
+  "profile": {
+    "title": "Your Profile",
+    "personalInfo": "Personal Information",
+    "preferences": "Preferences",
+    "goals": "Goals",
+    "paymentMethods": "Payment Methods",
+    "subscriptions": "Subscriptions",
+    "sessionHistory": "Session History",
+    "updateProfile": "Update Profile"
+  }
+}
